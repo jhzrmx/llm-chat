@@ -23,9 +23,7 @@ npm run dev
 
 Open the URL shown (e.g. `http://localhost:5173/llm-chat/`).
 
-**Sample model:** put `palmer-007-90M-Q4_K_M.gguf` in `public/assets/models/` to enable **Load sample model**. The file is not committed to the repo because of its size (~55 MB) — add it yourself (use `git lfs`, or just keep it local; the zero-byte placeholder fails validation with a clear message).
-
-> The sample is a ~90M-parameter model, so replies are fast but simple. For better answers load a larger instruct model, such as a small Qwen, Llama, SmolLM or Gemma GGUF (Q4 quantisations of ~0.5–1.5B parameters run well in a browser tab).
+> The sample model is a ~90M-parameter model, so replies are fast but simple. For better answers load a larger instruct model, such as a small Qwen, Llama, SmolLM or Gemma GGUF (Q4 quantisations of ~0.5–1.5B parameters run well in a browser tab).
 
 ## Build
 
